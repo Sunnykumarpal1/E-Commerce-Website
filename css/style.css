@@ -144,6 +144,7 @@
 }
 .section1 .section1-container .item .SignIn a{
     text-decoration:none;
+    color:black;
 }
 .section1 .section1-container .item .SignIn:hover{
     
