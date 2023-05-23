@@ -1,4 +1,4 @@
-/* reset */
+ /* reset */
 * {
     padding: 0px;
     margin: 0px;
@@ -24,7 +24,8 @@
     content: "";
     background-color: black;
     width: 100%;
-    height: 10%;
+    height: 9%;
+    display: flex;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -142,15 +143,15 @@
     background: #f6b55396;
     border-radius: 8px;
 }
-.section1 .section1-container .item .SignIn a{
-    text-decoration:none;
-    color:black;
-}
-.section1 .section1-container .item .SignIn:hover{
-    
+.section1 .section1-container .item .SignIn:hover{    
     background: #ff990096;
-  
 }
+.section1 .section1-container .item button a{
+    text-decoration: none;
+    color: black;
+     
+}
+
 /* section2 - technology and groceries*/
  .section2{
     margin: 20px;
@@ -191,9 +192,10 @@
  .section3 .history{
     display: flex;
     justify-content: center;
-     
-    gap: 20px;
+    gap: 7px;
  }
+
+ 
  .section3 .history .card{
     display: flex;  
     flex-direction: column;
@@ -232,14 +234,15 @@
          background-color:   #f6b55396;
          padding: 6px;
          border-radius: 5px;
+         cursor: pointer;
+    }
+    #section4 .section4-container button:hover{
+        
+        background-color:  #ff990096;  
     }
     #section4 .section4-container button a{
            text-decoration: none;
            color: black;
-    }
-    #section4 .section4-container button:hover{
-         
-         background-color:  #ff990096;  
     }
     /* footer */
     footer{
