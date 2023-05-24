@@ -72,4 +72,11 @@ form hr{
     color: rgb(249, 245, 245);
     opacity: 1; 
 }
+/* this is for form */
+@media (max-width:500px) {
+    form{
+        width: 75%;
+         
+    }    
+}
   
