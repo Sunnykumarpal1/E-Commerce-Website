@@ -39,7 +39,7 @@ form .btn{
 }
 form .btn input{
      
-    width:110px;
+    width:45%;
    /* background-color:rgb(190, 153, 228); */
 box-shadow: 2px 2px 7px white;
      background-color: transparent;
