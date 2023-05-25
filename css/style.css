@@ -14,7 +14,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    top: 3pxs;
+    top: 3px;
+    position:relative;
     padding: 0px 50px;
     flex-wrap: wrap;
 }
@@ -108,7 +109,7 @@
     height: auto;
      display: flex;
      background: url("../img/amazonBg.jpg")no-repeat center center/cover;
-     margin-top:8px;
+     
 }
 .section1-container{
     margin-top: 300px;
